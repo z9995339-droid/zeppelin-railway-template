@@ -1,5 +1,5 @@
 FROM debian:latest
-
+RUN npm install -g npm@11.9.0
 RUN apt update
 RUN apt install curl build-essential git python3 python3-pip -y
 
